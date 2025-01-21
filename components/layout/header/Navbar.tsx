@@ -1,24 +1,24 @@
 "use client";
 
 import {
-  Navbar as NextUINavbar,
+  Navbar as HeroUINavbar,
   NavbarContent,
   NavbarMenu,
   NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
-} from "@nextui-org/navbar";
+} from "@heroui/react";
 import NextLink from "next/link";
 
 import { Logo } from "@/config/logo";
 import HeaderUser from "./HeaderUser";
-import { Button, Link, User } from "@nextui-org/react";
+import { Button, Link, User } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
+    <HeroUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -94,7 +94,7 @@ const Navbar = () => {
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
-    </NextUINavbar>
+    </HeroUINavbar>
   );
 };
 

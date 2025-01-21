@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Progress, Button, Alert, Chip } from "@nextui-org/react";
+import { Progress, Button, Alert, Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 import PromptInputWithBottomActions from "./PromptInputWithBottomActions";

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Card, Progress } from "@nextui-org/react";
+import { Card, Progress } from "@heroui/react";
 
 export default function ResultScore() {
   const data = [

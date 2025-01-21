@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Card, Chip, cn } from "@nextui-org/react";
+import { Card, Chip, cn } from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 export default function DashboardStats() {

@@ -13,7 +13,7 @@ import {
   Tooltip,
   CheckboxGroup,
   Form,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { Icon } from "@iconify/react";
 
 export default function UpdateUser() {

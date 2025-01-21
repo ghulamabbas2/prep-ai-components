@@ -3,7 +3,7 @@
 import React, { useRef, useState } from "react";
 
 import ResultStats from "./ResultStats";
-import { Chip } from "@nextui-org/react";
+import { Chip } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import QuestionCard from "./QuestionCard";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import type { CardProps } from "@nextui-org/react";
+import type { CardProps } from "@heroui/react";
 
 import React from "react";
 import {
@@ -10,7 +10,7 @@ import {
   Cell,
   PolarAngleAxis,
 } from "recharts";
-import { Card, cn } from "@nextui-org/react";
+import { Card, cn } from "@heroui/react";
 
 interface CircleChartProps {
   title: string;
@@ -35,7 +35,7 @@ export default function ResultTable() {
         {
           name: "Questions",
           value: 2,
-          fill: "hsl(var(--nextui-primary))",
+          fill: "hsl(var(--heroui-primary))",
         },
       ],
     },
@@ -48,7 +48,7 @@ export default function ResultTable() {
         {
           name: "Result",
           value: 4,
-          fill: "hsl(var(--nextui-success))",
+          fill: "hsl(var(--heroui-success))",
         },
       ],
     },
@@ -61,7 +61,7 @@ export default function ResultTable() {
         {
           name: "Time",
           value: 34,
-          fill: "hsl(var(--nextui-warning))",
+          fill: "hsl(var(--heroui-warning))",
         },
       ],
     },
@@ -74,7 +74,7 @@ export default function ResultTable() {
         {
           name: "Difficulty",
           value: 3,
-          fill: "hsl(var(--nextui-danger))",
+          fill: "hsl(var(--heroui-danger))",
         },
       ],
     },
@@ -131,7 +131,7 @@ const CircleChartCard: React.FC<CircleChartProps> = ({
               animationDuration={1000}
               animationEasing="ease"
               background={{
-                fill: "hsl(var(--nextui-default-100))",
+                fill: "hsl(var(--heroui-default-100))",
               }}
               cornerRadius={12}
               dataKey="value"
@@ -139,7 +139,7 @@ const CircleChartCard: React.FC<CircleChartProps> = ({
               {chartData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
-                  fill={`hsl(var(--nextui-${
+                  fill={`hsl(var(--heroui-${
                     color === "default" ? "foreground" : color
                   }))`}
                 />

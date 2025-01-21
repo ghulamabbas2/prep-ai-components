@@ -8,7 +8,7 @@ import {
   SelectItem,
   Checkbox,
   Button,
-} from "@nextui-org/react";
+} from "@heroui/react";
 
 export default function NewInterview() {
   return (

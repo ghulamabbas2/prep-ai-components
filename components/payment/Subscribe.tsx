@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { Button, Input, Radio, RadioGroup } from "@nextui-org/react";
+import { Button, Input, Radio, RadioGroup } from "@heroui/react";
 import { Logo } from "@/config/logo";
 import { Icon } from "@iconify/react";
 

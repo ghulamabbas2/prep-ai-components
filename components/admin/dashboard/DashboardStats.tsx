@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Button, Card, cn } from "@nextui-org/react";
+import { Button, Card, cn } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 
